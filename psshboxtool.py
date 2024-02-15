@@ -560,8 +560,8 @@ def main():
 						print(p.INFO + "Apple Fairplay PSSH detected.")
 						print(p.ERROR + "Apple Fairplay PSSH is not supported.")
 					if syst == sysid.common:
-						print(p.INFO + "W3C Common PSSH detected.")
-						print(p.ERROR + "W3C Common PSSH is not supported.")
+						print(p.INFO + "W3C Common (ClearKey) PSSH detected.")
+						print(p.ERROR + "W3C Common (ClearKey) PSSH is not supported.")
 					if syst == sysid.fiarplay2:
 						print(p.INFO + "Netflix FairPlay PSSH detected.")
 						print(p.ERROR + "Netflix FairPlay PSSH is not supported.")
