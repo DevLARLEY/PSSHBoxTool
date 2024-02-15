@@ -612,14 +612,14 @@ def main():
 				print(p.INFO + "Microsoft PlayReady PSSH detected.")
 				print(p.INFO + bar3 + c.BOLD + "Microsoft PlayReady PSSH Dump" + c.ENDC + bar2)
 			elif syst == sysid.fairplay:
-				print(p.INFO + "Apple Fairplay PSSH detected.")
-				print(p.INFO + bar3 + c.BOLD + "Apple Widevine PSSH Dump" + c.ENDC + bar2)
+				print(p.INFO + "Apple FairPlay PSSH detected.")
+				print(p.INFO + bar3 + c.BOLD + "Apple FairPlay PSSH Dump" + c.ENDC + bar2)
 			elif syst == sysid.common:
-				print(p.INFO + "W3C Common PSSH detected.")
-				print(p.INFO + bar3 + c.BOLD + "W3C Widevine PSSH Dump" + c.ENDC + bar2)
+				print(p.INFO + "W3C Common (ClearKey) PSSH detected.")
+				print(p.INFO + bar3 + c.BOLD + "W3C Common (ClearKey) PSSH Dump" + c.ENDC + bar2)
 			elif syst == sysid.fiarplay2:
 				print(p.INFO + "Netflix FairPlay PSSH detected.")
-				print(p.INFO + bar3 + c.BOLD + "Netflix Widevine PSSH Dump" + c.ENDC + bar2)
+				print(p.INFO + bar3 + c.BOLD + "Netflix FairPlay PSSH Dump" + c.ENDC + bar2)
 			print(p.INFO + enc)
 
 if __name__ == '__main__':
