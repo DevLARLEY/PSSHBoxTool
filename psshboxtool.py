@@ -158,7 +158,7 @@ def isHex(s):
 	return True
 
 def queryAdditionalFields():
-	ad = input(p.INFO + "Add additional Fields (y/n)? ~: ")
+	ad = input(p.INFO + "Add additional fields (y/n)? ~: ")
 	if ad.lower() == 'y':
 		return True
 	return False
@@ -181,7 +181,7 @@ def conv48(s):
 
 def addAdditionalFields(fields):
 	print(p.INFO + "Select field to add:")
-	print(p.INFO + "(08) Alogrithm (False -> Not encrypted, True -> AES-CTR)")
+	print(p.INFO + "(08) Algorithm (False -> Not encrypted, True -> AES-CTR)")
 	print(p.INFO + "(12) Key ID (any)")
 	print(p.INFO + "(1a) Provider (any)")
 	print(p.INFO + "(22) Content ID (any)")
